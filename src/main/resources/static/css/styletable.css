@@ -1,0 +1,122 @@
+body{
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+}
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid purple;
+    margin-bottom: 10px;
+}
+th, td{
+    border: 3px solid purple;
+    padding: 10px;
+}
+
+.row{
+    width: 20px;
+}
+
+.minWidth{
+    white-space: normal;
+    width: fit-content;
+    text-align: center;
+}
+
+.min{
+    width: min-content;
+}
+
+.bodyContainer{
+    width: 100%;
+    display: inline;
+    float: left;
+}
+
+.calendar{
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+    box-sizing: content-box;
+    border: 3px solid purple;
+    padding: 5px;
+}
+
+.buttonWrapper{
+    margin-bottom: 20px;
+    padding: 5px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+.sendBtn{
+    background-color: burlywood;
+    border: 3px solid purple;
+    font-family: inherit;
+    font-size: 16px;
+    width: 130px;
+}
+.BBB{
+    width: 20px;
+    height: 20px;
+    border: 1px solid purple;
+}
+
+.redClass{
+    background-color: darkred;
+}
+
+.greenClass{
+    background-color: teal;
+}
+
+.errorField{
+    margin: 10px auto;
+    padding: 5px;
+    width: fit-content;
+    background: darkred;
+    color: wheat;
+}
+
+.randomizer{
+    text-align: center;
+    margin: 23px;
+    display: flex;
+    width: 200px;
+    border: 3px solid chartreuse;
+    border-radius: 5px;
+    height: 300px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.kek {
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+    width: 55px;
+    border-radius: 4px;
+}
+
+.asker{
+    background-color: yellow;
+}
+
+.answerer{
+    background-color: chartreuse;
+}
+
+
+.knopka{
+    padding: 5px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: cornflowerblue;
+}
+
